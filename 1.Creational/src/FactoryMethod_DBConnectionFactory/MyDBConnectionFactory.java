@@ -1,6 +1,7 @@
 package FactoryMethod_DBConnectionFactory;
 
 public class MyDBConnectionFactory implements DBConnectionFactory{
+    //ConcreteCreate
     private String type;
     public MyDBConnectionFactory(String type){
         this.type=type;
