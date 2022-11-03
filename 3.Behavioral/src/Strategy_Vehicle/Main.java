@@ -1,11 +1,11 @@
 package Strategy_Vehicle;
 
-import Strategy_Vehicle.Context.FormulaOne;
-import Strategy_Vehicle.Context.Helicopter;
-import Strategy_Vehicle.Context.Jet;
-import Strategy_Vehicle.Context.StreetRacer;
-import Strategy_Vehicle.Strategy.GoByDriving;
-import Strategy_Vehicle.Strategy.GoByFlyingFast;
+import Strategy_Vehicle.ConcreteContext.FormulaOne;
+import Strategy_Vehicle.ConcreteContext.Helicopter;
+import Strategy_Vehicle.ConcreteContext.Jet;
+import Strategy_Vehicle.ConcreteContext.StreetRacer;
+import Strategy_Vehicle.ConcreteStrategy.GoByDriving;
+import Strategy_Vehicle.ConcreteStrategy.GoByFlyingFast;
 
 public class Main {
     public static void main(String[] args) {
