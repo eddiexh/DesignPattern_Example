@@ -1,6 +1,7 @@
 package TemplateMethod_TemplateWithHook;
 
 public abstract class RobotHookTemplate {
+    //AbstractClass
     public final void go(){
         start();
         getParts();

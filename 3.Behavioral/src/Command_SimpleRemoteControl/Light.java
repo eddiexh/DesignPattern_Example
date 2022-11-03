@@ -1,6 +1,7 @@
 package Command_SimpleRemoteControl;
 
 public class Light {
+    //Invoker
     public Light() {}
     public void on() {
         System.out.println("Light is on");

@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public class CentralLocking implements Product{
+    //ConcreteImplementor
     private final String productName;
     public CentralLocking(String productName){
         this.productName = productName;

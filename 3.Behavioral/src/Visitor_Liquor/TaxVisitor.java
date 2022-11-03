@@ -2,6 +2,7 @@ package Visitor_Liquor;
 
 import java.text.DecimalFormat;
 class TaxVisitor implements Visitor {
+//    ConcreteVisitor
     DecimalFormat df = new DecimalFormat("#.##");
     public TaxVisitor() {
     }

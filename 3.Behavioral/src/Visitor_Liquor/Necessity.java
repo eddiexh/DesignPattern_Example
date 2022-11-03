@@ -1,6 +1,7 @@
 package Visitor_Liquor;
 
 class Necessity implements Visitable {
+//    ConcreteElement
     private double price;
     Necessity(double item) {
         price = item;

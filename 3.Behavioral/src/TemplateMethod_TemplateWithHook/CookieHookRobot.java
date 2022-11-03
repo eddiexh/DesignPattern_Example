@@ -1,6 +1,7 @@
 package TemplateMethod_TemplateWithHook;
 
 public class CookieHookRobot extends RobotHookTemplate{
+    //ConcreteClass
     private String name;
 
     public CookieHookRobot(String n)

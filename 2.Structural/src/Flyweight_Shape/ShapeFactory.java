@@ -2,6 +2,7 @@ package Flyweight_Shape;
 import java.util.*;
 
 public class ShapeFactory {
+    //FlyweightFactory
     private static final HashMap<String, Shape> shapeMap = new HashMap<String, Shape>();
     public static Shape getShape( String shapeType ) {
         Shape shape=null;

@@ -3,6 +3,7 @@ package State_CruiseControlSystem;
 import State_CruiseControlSystem.CruiseDeactivated;
 
 public class CruiseControl {
+    //ConcreteState
     State state;
     public CruiseControl() {
         // TODO Auto-generated constructor stub

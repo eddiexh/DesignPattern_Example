@@ -3,6 +3,7 @@ package State_CruiseControlSystem;
 import State_CruiseControlSystem.CruiseActivated;
 
 public class Cruising extends CruiseActivated {
+    //ConcreteState
     @Override
     void leverDown(CruiseControl c) {
         System.out.println("Cruising change to Cruising");
