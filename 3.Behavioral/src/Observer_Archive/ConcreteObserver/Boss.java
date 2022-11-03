@@ -1,6 +1,8 @@
-package Observer_Archive;
+package Observer_Archive.ConcreteObserver;
 
-public class Boss implements Observer{
+import Observer_Archive.Observer;
+
+public class Boss implements Observer {
     //ConcreteObserver
     public Boss() {
 

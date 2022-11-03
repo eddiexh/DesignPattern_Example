@@ -1,7 +1,10 @@
-package Observer_Archive;
+package Observer_Archive.ConcreteSubject;
+import Observer_Archive.Observer;
+import Observer_Archive.Subject;
+
 import java.util.*;
 
-public class Database implements Subject{
+public class Database implements Subject {
     //ConcreteSubject
     private Vector observers;
     private String operation;
@@ -27,8 +30,8 @@ public class Database implements Subject{
         notifyObserver();
     }
     public void notifyObserver() {
-        for (int loopIndex = 0; loopIndex < observers.size(); loopIndex++) {
-            Observer observer = (Observer)observers.get(loopIndex);
+        for (int i = 0; i < observers.size(); i++) {
+            Observer_Archive.Observer observer = (Observer)observers.get(i);
             observer.update(operation, record);
         }
     }

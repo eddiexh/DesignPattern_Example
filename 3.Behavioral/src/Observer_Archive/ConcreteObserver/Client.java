@@ -1,6 +1,8 @@
-package Observer_Archive;
+package Observer_Archive.ConcreteObserver;
 
-public class Client implements Observer{
+import Observer_Archive.Observer;
+
+public class Client implements Observer {
     //ConcreteObserver
     public Client() {
 
