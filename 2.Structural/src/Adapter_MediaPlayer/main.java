@@ -1,6 +1,9 @@
 package Adapter_MediaPlayer;
 
+import Adapter_MediaPlayer.Adapter.AudioPlayer;
+
 public class main {
+    //Client
     public static void main(String[] args) {
         // TODO Auto-generated method stub
         AudioPlayer audioPlayer = new AudioPlayer();

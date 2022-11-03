@@ -1,6 +1,7 @@
 package Flyweight_Shape;
 
 public class Circle implements Shape{
+    //ConcreteFlyweight
     private String color;
     private final int x = 10;
     private final int y = 20;

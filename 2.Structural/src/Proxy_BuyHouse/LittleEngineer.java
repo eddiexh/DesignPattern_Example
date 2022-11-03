@@ -1,6 +1,7 @@
 package Proxy_BuyHouse;
 
 public class LittleEngineer implements IBuyHouse {
+    //RealSubject
     @Override
     public void findHouse() {
 //        小小工程師想找在民生社區的房子

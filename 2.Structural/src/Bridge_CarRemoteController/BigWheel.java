@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public class BigWheel extends Car{
+    //RefinedAbstraction
     private final Product product;
     private final String carType;
     public BigWheel(Product product, String carType) {

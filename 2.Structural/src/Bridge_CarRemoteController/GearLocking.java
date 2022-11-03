@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public class GearLocking implements Product{
+    //ConcreteImplementor
     private final String productName;
     public GearLocking(String productName){
         this.productName = productName;

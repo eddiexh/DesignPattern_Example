@@ -2,6 +2,7 @@ package Iterator_Shape;
 
 import java.util.Iterator;
 public class ShapeIterator implements Iterator<Shape>{
+    //ConcreteIterator
     private Shape [] shapes;
     int pos;
 

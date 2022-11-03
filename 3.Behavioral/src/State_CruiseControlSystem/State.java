@@ -1,6 +1,7 @@
 package State_CruiseControlSystem;
 
 public abstract class State {
+    //State
     State[] states;
 
     abstract void leverDown(CruiseControl c);

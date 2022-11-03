@@ -1,6 +1,7 @@
 package Prototype_Shape;
 
 public class PrototypePatternDemo {
+    //Client
     public static void main(String[] args) {
         ShapeCache.loadCache();
 

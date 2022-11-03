@@ -1,6 +1,7 @@
 package Bridge_DrawAPI;
 
 public class Circle extends Shape {
+    //RefinedAbstraction
     private int x, y, radius;
 
     public Circle(int x, int y, int radius, DrawAPI drawAPI) {

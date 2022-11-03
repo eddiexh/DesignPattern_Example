@@ -1,6 +1,5 @@
 package AbstractFactory_Parser;
 
-
 public class TestAbstractFactoryPattern {
     public static void main(String[] args) {
         AbstractParserFactory parserFactory = ParserFactoryProducer.getFactory("NYFactory");

@@ -1,6 +1,7 @@
 package Proxy_BuyHouse;
 
 public class Test {
+    //Client
     public static void main( String[] args ) {
         IBuyHouse littleEngineer = new LittleEngineer();
 

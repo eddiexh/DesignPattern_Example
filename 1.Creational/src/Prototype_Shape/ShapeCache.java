@@ -1,5 +1,9 @@
 package Prototype_Shape;
 
+import Prototype_Shape.Prototype.Circle;
+import Prototype_Shape.Prototype.Rectangle;
+import Prototype_Shape.Prototype.Square;
+
 import java.util.Hashtable;
 public class ShapeCache {
     private static Hashtable<String, Shape> shapeMap  = new Hashtable<String, Shape>();

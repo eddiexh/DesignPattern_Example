@@ -1,7 +1,7 @@
 package Decorator_Beverage;
 
 public class Mocha extends CondimentDecorator {
-
+    //ConcreteDecorator
     // 要讓摩卡能參考到 Beverage,
     // 因此需要這個成員變數
     Beverage mBeverage;

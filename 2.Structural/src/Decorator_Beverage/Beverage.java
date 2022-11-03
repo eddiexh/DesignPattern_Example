@@ -1,6 +1,7 @@
 package Decorator_Beverage;
 
 public abstract class Beverage {
+    //Component
     String description = "Unknown Beverage";
     public String getDescription() {
         return description;

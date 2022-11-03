@@ -1,6 +1,7 @@
 package Flyweight_Shape;
 
 public class FlyweightPatternDemo {
+    //Client
     private static final String colors[] = { "Red", "Green", "Blue", "Orange", "Black" };
 
     public static void main( String[] args ) {

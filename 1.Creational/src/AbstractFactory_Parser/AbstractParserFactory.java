@@ -1,6 +1,8 @@
 package AbstractFactory_Parser;
 
-public interface AbstractParserFactory {
+import AbstractFactory_Parser.XMLParser;
 
+public interface AbstractParserFactory {
+    //AbstractFactory
     public XMLParser getParserInstance(String parserType);
 }

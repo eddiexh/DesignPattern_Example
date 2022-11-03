@@ -1,6 +1,7 @@
 package Iterator_Shape;
 
 public class TestIteratorPattern {
+    //Client
     public static void main(String[] args) {
         ShapeStorage storage = new ShapeStorage();
         storage.addShape("Polygon");

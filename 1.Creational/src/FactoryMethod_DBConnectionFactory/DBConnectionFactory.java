@@ -1,6 +1,6 @@
 package FactoryMethod_DBConnectionFactory;
 
 public interface DBConnectionFactory {
-    //creator
+    //Creator
     DBConnection createConnection();
 }

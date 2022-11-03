@@ -1,5 +1,7 @@
 package State_CruiseControlSystem;
 
+import State_CruiseControlSystem.CruiseActivated;
+
 public class Cruising extends CruiseActivated {
     @Override
     void leverDown(CruiseControl c) {

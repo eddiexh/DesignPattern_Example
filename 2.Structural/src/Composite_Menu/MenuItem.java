@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 
 public class MenuItem extends MenuComponent {
+    //Composite
     String name;
     String description;
     boolean vegetarian;

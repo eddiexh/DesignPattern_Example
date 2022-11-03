@@ -1,6 +1,7 @@
 package Visitor_Liquor;
 
 public class VisitorTest {
+    //Client
     public static void main(String[] args) {
         TaxVisitor taxCalc = new TaxVisitor();
         TaxHolidayVisitor taxHolidayCalc = new TaxHolidayVisitor();

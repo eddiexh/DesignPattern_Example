@@ -1,6 +1,7 @@
 package Iterator_Shape;
 
 public class Shape {
+    //Aggregate
     private int id;
     private String name;
 

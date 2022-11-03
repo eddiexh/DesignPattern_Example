@@ -1,6 +1,7 @@
 package Iterator_Shape;
 
 public class ShapeStorage {
+    //ConcreteAggregate
     private Shape[] shapes = new Shape[5];
     private int index;
 

@@ -1,6 +1,7 @@
 package Proxy_BuyHouse;
 
 public class EstateAgent implements IBuyHouse {
+    //Proxy
 
     private IBuyHouse iBuyHouse;
 

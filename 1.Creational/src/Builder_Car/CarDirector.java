@@ -1,6 +1,7 @@
 package Builder_Car;
 
 public class CarDirector {
+    //Director
     private CarBuilder carBuilder;
     public CarDirector(CarBuilder carBuilder){
         this.carBuilder = carBuilder;

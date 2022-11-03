@@ -1,5 +1,7 @@
 package State_CruiseControlSystem;
 
+import State_CruiseControlSystem.CruiseDeactivated;
+
 public class CruiseControl {
     State state;
     public CruiseControl() {

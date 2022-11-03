@@ -1,6 +1,9 @@
 package State_CruiseControlSystem;
 
-public class DecreasingSpeed extends CruiseActivated{
+import State_CruiseControlSystem.CruiseActivated;
+
+public class DecreasingSpeed extends CruiseActivated {
+    //Context
     @Override
     void leverReleased(CruiseControl c){
         System.out.println("DecreasingSpeed change to Cruising");

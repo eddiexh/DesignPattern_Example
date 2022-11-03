@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public abstract class Car {
+    //Abstraction
     private final Product product;
     private final String carType;
 

@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public class Motoren extends Car{
+    //RefinedAbstraction
     private final Product product;
     private final String carType;
 

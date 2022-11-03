@@ -1,6 +1,7 @@
 package Bridge_CarRemoteController;
 
 public class TestBridgePattern {
+    //Client
     public static void main(String[] args) {
         Product product = new CentralLocking("Central Locking System");
         Product product2 = new GearLocking("Gear Locking System");

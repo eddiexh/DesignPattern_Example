@@ -1,6 +1,7 @@
 package Decorator_Beverage;
 
 public class Milk extends CondimentDecorator {
+    //ConcreteDecorator
     Beverage mBeverage;
 
     public Milk(Beverage beverage)

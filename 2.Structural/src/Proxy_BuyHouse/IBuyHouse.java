@@ -1,6 +1,7 @@
 package Proxy_BuyHouse;
 
 public interface IBuyHouse {
+    //Subject
     //    找適合的房子
     public void findHouse();
     //    跟屋主說太貴

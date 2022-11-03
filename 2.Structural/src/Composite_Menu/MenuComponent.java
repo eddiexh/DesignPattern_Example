@@ -3,7 +3,7 @@ package Composite_Menu;
 import java.util.*;
 
 public abstract class MenuComponent {
-
+    //Component
     public void add(MenuComponent menuComponent) {
         throw new UnsupportedOperationException();
     }

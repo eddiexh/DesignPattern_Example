@@ -1,7 +1,7 @@
 package State_CruiseControlSystem;
 
 public class CruiseActivated extends State {
-
+    //ConcreteState
     @Override
     void onOffButtonPressed(CruiseControl c) {
         // TODO Auto-generated method stub

@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.ArrayList;
 
 public class Menu extends MenuComponent {
+    //Composite
     ArrayList menuComponents = new ArrayList();
     String name;
     String description;
