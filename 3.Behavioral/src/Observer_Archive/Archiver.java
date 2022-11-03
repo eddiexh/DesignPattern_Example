@@ -1,6 +1,7 @@
 package Observer_Archive;
 
 public class Archiver implements Observer{
+    //ConcreteObserver
     public Archiver() {
 
     }

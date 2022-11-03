@@ -1,6 +1,7 @@
 package Observer_Archive;
 
 public class Client implements Observer{
+    //ConcreteObserver
     public Client() {
 
     }

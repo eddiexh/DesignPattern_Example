@@ -1,6 +1,7 @@
 package Observer_Archive;
 
 public class Boss implements Observer{
+    //ConcreteObserver
     public Boss() {
 
     }

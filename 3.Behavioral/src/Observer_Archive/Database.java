@@ -2,6 +2,7 @@ package Observer_Archive;
 import java.util.*;
 
 public class Database implements Subject{
+    //ConcreteSubject
     private Vector observers;
     private String operation;
     private String record;
