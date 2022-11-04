@@ -1,6 +1,7 @@
 package Bridge;
 
 public abstract class UI {
+	//Abstraction
 	protected UIImp os = null;
 	
 	public void setOS(UIImp os) {

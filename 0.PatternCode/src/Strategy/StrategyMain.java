@@ -1,5 +1,8 @@
 package Strategy;
 
+import Strategy.ConcreteStrategy.ConcreteS1;
+import Strategy.ConcreteStrategy.ConcreteS2;
+
 public class StrategyMain {
 
 	public static void main(String[] args) {

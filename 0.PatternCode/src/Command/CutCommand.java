@@ -1,7 +1,9 @@
 package Command;
 
-public class CutCommand implements Command {
+import Command.Command;
 
+public class CutCommand implements Command {
+	//ConcreteCommand
 	private Document dc;
 	
 	public CutCommand(Document dc) {

@@ -1,7 +1,7 @@
 package Command;
 
 public class Client {
-	
+	//Client
 	public static void main(String[] args) {
 		//invoker
 		EditInvoker ei = new EditInvoker();

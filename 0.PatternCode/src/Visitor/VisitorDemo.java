@@ -1,7 +1,7 @@
 package Visitor;
 
 public class VisitorDemo {
-
+	//Client
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Airplan air = new Airplan(200);

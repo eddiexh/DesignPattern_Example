@@ -1,6 +1,7 @@
 package Builder;
 
 public class Car {
+	//Product
 	private String bodyStyle;
 	private String power;
 	private String engine;

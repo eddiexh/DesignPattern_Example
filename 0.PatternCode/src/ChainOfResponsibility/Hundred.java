@@ -1,7 +1,7 @@
 package ChainOfResponsibility;
 
 public class Hundred extends ChangeMoney {
-
+	//ConcreteHandler
 	public Hundred(ChangeMoney cm) {
 		super(cm);
 	}

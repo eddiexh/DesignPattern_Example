@@ -1,7 +1,7 @@
 package Adapter;
 
 public class Demo {
-
+	//Client
 	public static void main(String[] args) {
 		TextView tv = new TextView();
 		Shape ts = new TextShape(tv);

@@ -1,7 +1,7 @@
 package Visitor;
 
 public class TWVisitor implements Visitor {
-
+	//ConcreteVisitor
 	@Override
 	public void go(Airplan tool) {
 		// TODO Auto-generated method stub

@@ -1,7 +1,9 @@
 package Command;
 
-public class PasteCommand implements Command {
+import Command.Command;
 
+public class PasteCommand implements Command {
+	//ConcreteCommand
 	private Document dc;
 	
 	public PasteCommand(Document dc) {

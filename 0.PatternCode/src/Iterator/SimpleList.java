@@ -1,6 +1,7 @@
 package Iterator;
 
 public class SimpleList extends List {
+	//ConcreteAggregate
 	private String[] list;
 	private int index;
 	

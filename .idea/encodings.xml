@@ -2,5 +2,20 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/0.PatternCode/src/AbstractFactory/AbstractFactoryDemo.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/CompositeSafety/SafetyMain.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteComponent/Rice.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteComponent/Rice.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Mayonnaise.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Mayonnaise.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Seaweed.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Seaweed.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Sesame.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/ConcreteDecorator/Sesame.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Decorator/DecoratorDemo.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Proxy/RealImage.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Template/AbstractTemplate.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Template/SummerTemplate.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Template/TempleteDemo.java" charset="x-windows-950" />
+    <file url="file://$PROJECT_DIR$/0.PatternCode/src/Template/WinterTemplate.java" charset="x-windows-950" />
   </component>
 </project>

@@ -1,5 +1,10 @@
 package Decorator;
 
+import Decorator.ConcreteComponent.Rice;
+import Decorator.ConcreteDecorator.Mayonnaise;
+import Decorator.ConcreteDecorator.Seaweed;
+import Decorator.ConcreteDecorator.Sesame;
+
 public class DecoratorDemo {
 
 	public static void main(String[] args) {

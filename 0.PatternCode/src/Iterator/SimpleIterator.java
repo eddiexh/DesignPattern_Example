@@ -1,6 +1,7 @@
 package Iterator;
 
 class SimpleIterator extends Iterator {
+	//ConcreteIterator
 	private String[] list;
 	private int pos;
 	

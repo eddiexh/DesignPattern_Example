@@ -1,8 +1,12 @@
 package Flyweight;
 
+import Flyweight.ConcreteFlyweight.Circle;
+import Flyweight.ConcreteFlyweight.Square;
+
 import java.util.HashMap;
 
 public class ShapeFactory {
+	//FlyweightFactory
 	private static final HashMap<String, Shape> shapeMap = new HashMap<String, Shape>();
 
 	  public static Shape getShape(String shapeType) {

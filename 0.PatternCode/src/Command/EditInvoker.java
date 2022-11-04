@@ -3,6 +3,7 @@ package Command;
 import java.util.ArrayList;
 
 public class EditInvoker {
+	//Invoker
 	ArrayList<Command> cmdList = new ArrayList<Command>();
 	
 	public void addCommand(Command cmd) {

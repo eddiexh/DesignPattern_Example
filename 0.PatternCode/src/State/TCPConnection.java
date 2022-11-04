@@ -1,6 +1,9 @@
 package State;
 
+import State.ConcreteState.TCPClosed;
+
 public class TCPConnection {
+	//Context
 	private TCPState state;
 	
 	public TCPConnection() {

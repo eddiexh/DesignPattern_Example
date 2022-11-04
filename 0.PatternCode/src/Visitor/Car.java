@@ -1,7 +1,7 @@
 package Visitor;
 
 public class Car extends TrafficTool {
-
+	//ConcreteElement
 	private int speed;
 	
 	public Car(int speed) {

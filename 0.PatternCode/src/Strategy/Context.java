@@ -1,6 +1,7 @@
 package Strategy;
 
 public class Context {
+	//Context
 	public Strategy s = null;
 	public String content = null;
 	

@@ -1,7 +1,7 @@
 package Template;
 
 public class WinterTemplate extends AbstractTemplate {
-	
+	//Concrete
 	public void top() {
 		System.out.println("¬ï¤Wªø³S");
 	}

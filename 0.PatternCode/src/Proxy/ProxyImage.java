@@ -1,7 +1,7 @@
 package Proxy;
 
 public class ProxyImage implements Image {
-
+	//Proxy
 	private String fileName = null;
 	private Image real = null;
 	

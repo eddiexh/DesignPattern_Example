@@ -1,7 +1,9 @@
 package Command;
 
-public class EditCommand implements Command {
+import Command.Command;
 
+public class EditCommand implements Command {
+	//ConcreteCommand
 	private Document dc;
 	
 	public EditCommand(Document dc) {

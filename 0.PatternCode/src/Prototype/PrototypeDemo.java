@@ -1,5 +1,9 @@
 package Prototype;
 
+import Prototype.ConcretePrototype.DeepSquare;
+import Prototype.ConcretePrototype.Shadow;
+import Prototype.ConcretePrototype.ShallowSquare;
+
 public class PrototypeDemo {
 
 	public static void main(String[] args) {

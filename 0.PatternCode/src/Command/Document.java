@@ -3,7 +3,7 @@ package Command;
 import java.util.ArrayList;
 
 public class Document {
-	
+	//Receiver
 	private ArrayList<String> contents;
 	private String cut = null;
 	

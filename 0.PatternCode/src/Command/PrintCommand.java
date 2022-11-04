@@ -1,7 +1,9 @@
 package Command;
 
-public class PrintCommand implements Command {
+import Command.Command;
 
+public class PrintCommand implements Command {
+	//ConcreteCommand
 	private Document dc;
 	
 	public PrintCommand(Document dc) {

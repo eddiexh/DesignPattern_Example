@@ -1,6 +1,10 @@
 package Flyweight;
 
+import Flyweight.ConcreteFlyweight.Circle;
+import Flyweight.ConcreteFlyweight.Square;
+
 public class Demo {
+	//Client
 	private static final String colors[] = { "Red", "Green", "Blue", "Orange", "Black" };
 
 	public static void main( String[] args ) {

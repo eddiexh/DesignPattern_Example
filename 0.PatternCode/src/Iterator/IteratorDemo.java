@@ -1,6 +1,7 @@
 package Iterator;
 
 public class IteratorDemo {
+	//Client
 	public static void main(String[] args) {
 		List list = new SimpleList();
 		list.addItem("1");

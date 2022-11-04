@@ -2,6 +2,7 @@
 package ChainOfResponsibility;
 
 public abstract class ChangeMoney {
+	//Handler
 	protected ChangeMoney cm = null;
 	
 	public ChangeMoney(ChangeMoney cm) {

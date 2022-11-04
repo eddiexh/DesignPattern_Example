@@ -1,6 +1,7 @@
 package Template;
 
 public abstract class AbstractTemplate {
+	//AbstractClass
 	public final void order() {
 		top();
 		mid();

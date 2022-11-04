@@ -1,7 +1,7 @@
 package Visitor;
 
 public class Airplan extends TrafficTool {
-
+	//ConcreteElement
 	private int speed;
 	
 	public Airplan(int speed) {

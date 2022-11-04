@@ -1,6 +1,7 @@
 package Adapter;
 
 public class TextShape extends Shape {
+	//Adapter
 	private TextView adaptee;
 	
 	public TextShape(TextView tv) {

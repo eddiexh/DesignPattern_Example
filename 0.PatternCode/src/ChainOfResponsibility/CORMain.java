@@ -1,6 +1,7 @@
 package ChainOfResponsibility;
 
 public class CORMain {
+	//Client
 	public static void main(String[] args) {
 		ChangeMoney cm = new Thousand(new FiveHundred(new Hundred(null)));
 		
