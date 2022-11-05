@@ -1,6 +1,6 @@
 package Visitor_Liquor;
 
-class Liquor implements Visitable {
+class Liquor implements Element {
     //ConcreteElement
     private double price;
     Liquor(double item) {

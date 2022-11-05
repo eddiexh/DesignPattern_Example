@@ -1,6 +1,6 @@
 package Visitor_Liquor;
 
-interface Visitable {
+interface Element {
     //Element
     public double accept(Visitor visitor);
 }

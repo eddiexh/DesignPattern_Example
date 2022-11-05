@@ -1,7 +1,7 @@
 package Command_SimpleRemoteControl;
 
 public class SimpleRemoteControl {
-    //Receiver
+    //Invoker
     Command slot;
     public SimpleRemoteControl() {}
 

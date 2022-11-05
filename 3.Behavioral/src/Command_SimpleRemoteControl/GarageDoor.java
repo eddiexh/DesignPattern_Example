@@ -1,7 +1,7 @@
 package Command_SimpleRemoteControl;
 
 public class GarageDoor {
-    //Invoker
+    //Receiver
     public GarageDoor() {}
     public void up() {
         System.out.println("Garage Door is Open");
