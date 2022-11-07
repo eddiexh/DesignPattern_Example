@@ -15,7 +15,7 @@ public class SimpleRemoteControlClient{
         remoteControl.buttonWasPressed();
 
         Command garageDoorOpenCommand = new GarageDoorOpenCommand(garageDoor );
-        remoteControl.setCommand(garageDoorOpenCommand );
+        remoteControl.setCommand(garageDoorOpenCommand);
         remoteControl.buttonWasPressed();
     }
 }
