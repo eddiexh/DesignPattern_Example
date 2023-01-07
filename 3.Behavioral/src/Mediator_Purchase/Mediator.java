@@ -1,7 +1,7 @@
 package Mediator_Purchase;
 // 定義
 public class Mediator{
-    //Mediator
+    //Mediator???
     Welcome welcome;
     Shop shop;
     Purchase purchase;

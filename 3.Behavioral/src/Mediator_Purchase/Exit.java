@@ -1,6 +1,7 @@
 package Mediator_Purchase;
 
 public class Exit{
+    //Concrete Colleague
     Mediator mediator;
 
     public Exit(Mediator m){
