@@ -3,6 +3,7 @@ package Mediator_Purchase;
 import java.io.*;
 
 public class Purchase {
+    //Concrete Colleague
     Mediator mediator;
     String response = "n";
 

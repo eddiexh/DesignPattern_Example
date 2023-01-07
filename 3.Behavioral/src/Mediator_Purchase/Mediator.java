@@ -1,5 +1,5 @@
 package Mediator_Purchase;
-// 定義
+//  ConcreteMediator???
 public class Mediator{
     //Mediator???
     Welcome welcome;
