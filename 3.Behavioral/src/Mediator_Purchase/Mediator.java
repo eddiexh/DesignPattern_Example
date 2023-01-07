@@ -1,7 +1,6 @@
 package Mediator_Purchase;
-//  ConcreteMediator???
 public class Mediator{
-    //Mediator???
+    //ConcreteMediator
     Welcome welcome;
     Shop shop;
     Purchase purchase;
