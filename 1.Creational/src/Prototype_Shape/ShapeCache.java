@@ -1,8 +1,8 @@
 package Prototype_Shape;
 
-import Prototype_Shape.Prototype.Circle;
-import Prototype_Shape.Prototype.Rectangle;
-import Prototype_Shape.Prototype.Square;
+import Prototype_Shape.ConcretePrototype.Circle;
+import Prototype_Shape.ConcretePrototype.Rectangle;
+import Prototype_Shape.ConcretePrototype.Square;
 
 import java.util.Hashtable;
 public class ShapeCache {

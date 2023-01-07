@@ -1,4 +1,4 @@
-package Prototype_Shape.Prototype;
+package Prototype_Shape.ConcretePrototype;
 
 import Prototype_Shape.Shape;
 

@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/1.Creational/1.Creational.iml" filepath="$PROJECT_DIR$/1.Creational/1.Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/2.Structural/2.Structural.iml" filepath="$PROJECT_DIR$/2.Structural/2.Structural.iml" />
       <module fileurl="file://$PROJECT_DIR$/3.Behavioral/3.Behavioral.iml" filepath="$PROJECT_DIR$/3.Behavioral/3.Behavioral.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clone_Example/Clone_Example.iml" filepath="$PROJECT_DIR$/Clone_Example/Clone_Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/Design_Pattern.iml" filepath="$PROJECT_DIR$/Design_Pattern.iml" />
     </modules>
   </component>
