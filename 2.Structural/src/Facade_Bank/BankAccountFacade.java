@@ -1,5 +1,7 @@
 package Facade_Bank;
 
+import Facade_Bank.SubObject.*;
+
 public class BankAccountFacade {
     //Facade
     private int accountNumber;
@@ -11,7 +13,6 @@ public class BankAccountFacade {
     WelcomeToBank bankWelcome;
 
     public BankAccountFacade(int newAcctNum, int newSecCode){
-
         accountNumber = newAcctNum;
         securityCode = newSecCode;
 
@@ -22,9 +23,13 @@ public class BankAccountFacade {
         fundChecker = new FundsCheck();
     }
 
-    public int getAccountNumber() { return accountNumber; }
+    public int getAccountNumber(){
+        return accountNumber;
+    }
 
-    public int getSecurityCode() { return securityCode; }
+    public int getSecurityCode(){
+        return securityCode;
+    }
 
     public void withdrawCash(double cashToGet){
         if(acctChecker.accountActive(getAccountNumber()) && codeChecker.isCodeCorrect(getSecurityCode()) && fundChecker.haveEnoughMoney(cashToGet)) {

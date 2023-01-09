@@ -1,9 +1,9 @@
-package Adapter_MediaPlayer.Adaptee;
+package Adapter_MediaPlayer.ConcreteAdaptee;
 
 import Adapter_MediaPlayer.AdvancedMediaPlayer;
 
 public class Mp4Player implements AdvancedMediaPlayer {
-    //ConcreteAdaptee
+    //Concrete Adaptee
     @Override
     public void playVlc(String fileName) {
         // TODO Auto-generated method stub

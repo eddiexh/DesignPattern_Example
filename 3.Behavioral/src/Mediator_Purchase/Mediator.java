@@ -1,4 +1,7 @@
 package Mediator_Purchase;
+
+import Mediator_Purchase.ConcreteColleague.*;
+
 public class Mediator{
     //ConcreteMediator
     Welcome welcome;

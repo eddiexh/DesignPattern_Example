@@ -1,14 +1,12 @@
-package Adapter_MediaPlayer.Adapter;
+package Adapter_MediaPlayer.ConcreteAdapter;
 
-import Adapter_MediaPlayer.Adapter.MediaAdapter;
 import Adapter_MediaPlayer.MediaPlayer;
 
 public class AudioPlayer implements MediaPlayer {
-    //Adapter
+    //Concrete Adapter
     MediaAdapter mediaAdapter;
     @Override
     public void play(String audioType, String fileName) {
-        // TODO Auto-generated method stub
         // inbuilt support to play mp3 music files
         if (audioType.equalsIgnoreCase("mp3")) {
             System.out.println("Playing mp3 file. Name: " + fileName);

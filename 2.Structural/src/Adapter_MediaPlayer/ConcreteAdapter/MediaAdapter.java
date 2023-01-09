@@ -1,12 +1,12 @@
-package Adapter_MediaPlayer.Adapter;
+package Adapter_MediaPlayer.ConcreteAdapter;
 
 import Adapter_MediaPlayer.AdvancedMediaPlayer;
 import Adapter_MediaPlayer.MediaPlayer;
-import Adapter_MediaPlayer.Adaptee.Mp4Player;
-import Adapter_MediaPlayer.Adaptee.VlcPlayer;
+import Adapter_MediaPlayer.ConcreteAdaptee.Mp4Player;
+import Adapter_MediaPlayer.ConcreteAdaptee.VlcPlayer;
 
 public class MediaAdapter implements MediaPlayer {
-    //Adapter
+    //Concrete Adapter
     AdvancedMediaPlayer advancedMusicPlayer;
     public MediaAdapter(String audioType){
         if(audioType.equalsIgnoreCase("vlc") ){

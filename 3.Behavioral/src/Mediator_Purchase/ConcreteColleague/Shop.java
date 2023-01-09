@@ -1,18 +1,20 @@
-package Mediator_Purchase;
+package Mediator_Purchase.ConcreteColleague;
+
+import Mediator_Purchase.Mediator;
 
 import java.io.*;
 
-public class Purchase {
+public class Shop{
     //Concrete Colleague
     Mediator mediator;
     String response = "n";
 
-    public Purchase(Mediator m) {
+    public Shop(Mediator m){
         mediator = m;
     }
 
     public void go(){
-        System.out.print("Buy the item now? [y/n]? ");
+        System.out.print("Are you ready to purchase? [y/n]? ");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         try{
@@ -22,8 +24,9 @@ public class Purchase {
         }
 
         if (response.equals("y")){
-            System.out.println("Thanks for your purchase.");
+            mediator.handle("shop.purchase");
+        } else {
+            mediator.handle("shop.exit");
         }
-        mediator.handle("purchase.exit");
     }
 }

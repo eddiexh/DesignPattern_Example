@@ -1,4 +1,6 @@
-package Mediator_Purchase;
+package Mediator_Purchase.ConcreteColleague;
+
+import Mediator_Purchase.Mediator;
 
 public class Exit{
     //Concrete Colleague
