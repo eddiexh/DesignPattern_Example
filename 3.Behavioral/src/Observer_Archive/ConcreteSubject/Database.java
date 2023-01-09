@@ -31,7 +31,7 @@ public class Database implements Subject {
     }
     public void notifyObserver() {
         for (int i = 0; i < observers.size(); i++) {
-            Observer_Archive.Observer observer = (Observer)observers.get(i);
+            Observer observer = (Observer)observers.get(i);
             observer.update(operation, record);
         }
     }
