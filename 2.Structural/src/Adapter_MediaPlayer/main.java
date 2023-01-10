@@ -1,7 +1,5 @@
 package Adapter_MediaPlayer;
 
-import Adapter_MediaPlayer.ConcreteAdapter.AudioPlayer;
-
 public class main {
     //Client
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
-package Adapter_MediaPlayer.ConcreteAdapter;
+package Adapter_MediaPlayer;
 
+import Adapter_MediaPlayer.ConcreteAdapter.MediaAdapter;
 import Adapter_MediaPlayer.MediaPlayer;
 
 public class AudioPlayer implements MediaPlayer {
-    //Concrete Adapter
     MediaAdapter mediaAdapter;
     @Override
     public void play(String audioType, String fileName) {
